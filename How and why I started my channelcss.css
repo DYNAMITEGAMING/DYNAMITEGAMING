@@ -1,0 +1,159 @@
+html {
+    background-color:  #000000;   
+    line-height: 1.7;
+    
+    
+  }
+  
+  body {
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  
+  header {
+    padding-top: 20px;
+    color: #fd0800;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+  }
+  
+  header p {
+    margin: 0;
+  }
+  
+  /* Site Navigation */
+  .site-nav {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .site-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 10px ;
+  }
+  
+  .site-nav a {
+    display: block;
+    color: #0004ff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid #e5e9dc;
+    border-bottom: none;
+  }
+  
+  .site-nav a:hover {
+    background-color: #e5e9dc;
+  }
+  
+  /* End Site Navigation */
+  
+  
+  .content-area {
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+    background-color: #000000;
+  }
+  
+  .main-area {
+    width: 66%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar {
+    width: 34%;
+    float: left;
+    background-color: #00eeff;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: small;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 85%;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .fix {
+    clear: both;
+  }
+  
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+
+  
+  .group:after {
+    clear: both;
+  }
+  
+  .group {
+    zoom: 0;
+  }
+  
+  /* Site Navigation */
+  .site-navi {
+    margin-top: 20px;
+  }
+  
+  .site-navi ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .site-navi li {
+    list-style: none;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .site-navi a {
+    display: block;
+    color: #082dff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 3px solid #ff0000;
+    border-bottom: none;
+  }
+  
+  .site-navi a:hover {
+    background-color: #ff0000;
+  }
+  
+  /* End Site Navigation */
+  
+  header h1 {
+      text-shadow: 4px 10px 4px #fff;
+      font-style: italic;
+  }
+
+
+.main-area {
+  color: #fff;
+}
